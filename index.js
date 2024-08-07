@@ -8,10 +8,10 @@ console.log("-".repeat(25))
 
 while(true){
     console.log(`Como deseja prosseguir: 
-        1. Faculdade
-        2. Aluno
-        3. Sair
-        `)
+1. Faculdade
+2. Aluno
+3. Sair
+`)
 
     const user = parseInt(prompt());
 
@@ -22,13 +22,13 @@ while(true){
             continuar = true;
             while(continuar){
                 console.log(`
-                    Gerenciamento da Faculdade
+Gerenciamento da Faculdade
 
-                    1. Criar
-                    2. Listar
-                    3. Atualizar
-                    4. Remover
-                    5. Sair`);
+1. Criar
+2. Listar
+3. Atualizar
+4. Remover
+5. Sair`);
 
                 const opcaoAcao = parseInt(prompt());
 
@@ -57,13 +57,13 @@ while(true){
             continuar = true;
             while(continuar){
                 console.log(`
-                    Gerenciamento do Aluno
+Gerenciamento do Aluno
                     
-                    1. Criar
-                    2. Listar
-                    3. Atualizar
-                    4. Remover
-                    5. Sair`);
+1. Criar
+2. Listar
+3. Atualizar
+4. Remover
+5. Sair`);
 
                 const opcaoAcao = parseInt(prompt());
                 
